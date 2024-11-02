@@ -59,6 +59,7 @@ source /cadence/install/cshrc (mention the path of the tools)
 (The path of cshrc could vary depending on the installation destination)
       
 After this you can see the window like below 
+![Screenshot (171)](https://github.com/user-attachments/assets/8eeec731-2e2b-488e-a4a1-060e6438a5fa)
 
 ### Fig 2: Invoke the Cadence Environment
 
@@ -72,12 +73,14 @@ or
 
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![Screenshot (173)](https://github.com/user-attachments/assets/5705b919-493b-40c5-aa4d-fb808952d0fa)
 
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
+![Screenshot (174)](https://github.com/user-attachments/assets/1ad53fc2-669a-4438-bc66-09bb36ccb1de)
 
 ### Fig 4:cds.lib file Creation
 
@@ -100,6 +103,7 @@ Left side you can see the HDL files. Right side of the window has worklib and sn
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![Screenshot (172)](https://github.com/user-attachments/assets/0d724274-44b5-4234-88a3-4033024386dc)
 
 ### Fig 6: Nclaunch Window
 
@@ -124,6 +128,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+![Screenshot (176)](https://github.com/user-attachments/assets/c2264e5c-cbfe-4ff3-98ba-d1bd4fc9904d)
 
 ### Fig 7: Compiled database in worklib
 
@@ -135,7 +140,7 @@ The cds.lib file is an ASCII text file. It defines which libraries are accessibl
 
 directory paths. For this Design, you will define a library called “worklib”
 
-#3 Step 2: Elaboration:– 
+## 3 Step 2: Elaboration:– 
 
 To check the port connections in hierarchical design
 
@@ -158,6 +163,7 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 5.It also establishes net connectivity and prepares all of this for simulation
 
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
+![Screenshot (178)](https://github.com/user-attachments/assets/aed4a3d7-0a94-4709-8b7f-74caa7949664)
 
 ## Fig 8: Elaboration Launch Option
 
